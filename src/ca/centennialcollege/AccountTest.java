@@ -13,7 +13,6 @@ public class AccountTest {
     static int num_operations = 0;
 
     public static void main(String[] args) throws IOException, InterruptedException {
-        new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
         initialize();
         while (true) {
             Scanner scanner = new Scanner(System.in);
